@@ -1,0 +1,34 @@
+name: story_deck
+description: "Instagram-style stories viewer for Flutter: multi-user deck, 3D cube transition, segmented progress, video sync via adapter, theming. All platforms."
+version: 0.0.1
+homepage: https://github.com/Rishav1995-roy/story_deck
+repository: https://github.com/Rishav1995-roy/story_deck
+issue_tracker: https://github.com/Rishav1995-roy/story_deck/issues
+
+topics:
+  - stories
+  - instagram
+  - widget
+  - video
+  - transition
+
+screenshots:
+  - description: Demo - progress bars, tapping through, cube transition to the next user and swipe down to close.
+    path: doc/demo.gif
+  - description: Story viewer in light styling with header, caption and reply bar.
+    path: doc/screenshot_light.png
+  - description: Story viewer with dark theme styling during the cube transition.
+    path: doc/screenshot_dark.png
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ">=5.0.0 <7.0.0"

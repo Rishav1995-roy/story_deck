@@ -1,0 +1,3 @@
+tags:
+  demo:
+    description: Renders the README demo GIF frames; run with `flutter test --tags demo tool/`.
